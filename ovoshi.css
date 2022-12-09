@@ -1,0 +1,154 @@
+/* body{
+    height: 400vh;
+    background-color: #2e6c33;
+}
+
+
+
+.header h1{
+    color: #265b2b;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../IT_Store/ovoshi_img/background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    /* font-size: 100px; */
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 15px;
+    margin-left: 55px;
+}
+
+.card{
+    /* display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; */
+
+    /* height: 100%; */
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(pic-1.png);
+    background-position: center;
+    background-size: cover;
+
+    /* border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    margin: 10px 15; */
+
+    /* background-image: url(); */
+    
+    /* background-position: center;
+    background-size: cover;   
+    transition: transform 0.5s; */
+
+    justify-content: space-around   ;
+}
+
+.card1{
+    background-image: url("https://www.budgetbytes.com/wp-content/uploads/2018/12/Spicy-Coconut-Vegetable-Stir-Fry-over-rice.jpg");
+}
+
+.card2{
+    background-image: url("https://cdn.britannica.com/08/187208-050-E4233521/onions.jpg");
+}
+
+.card3{
+    background-image: url("https://www.encouraginggreens.com/wp-content/uploads/2017/04/turnovernewgreenleaf.jpg");
+}
+
+.card4{
+    background-image: url("https://i.pinimg.com/736x/d4/50/48/d45048f1324329d149a9cc79b8c8f7c4.jpg");
+}
+
+.card5{
+    background-image: url("https://i.pinimg.com/originals/73/60/ae/7360ae05731d01577fef4fbd8bc6bf43.jpg");
+}
+
+.card6{
+    background-image: url("https://img.freepik.com/premium-photo/different-pork-beef-steaks-with-spices-butcher-fool-dark-background_124507-10191.jpg?w=2000");
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    filter: brightness(60%);
+    transition: all 0.5s ease-out;
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+button a{
+    text-decoration: none;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+/* li{
+    color: #fff;
+} */
+
+
+
+
+/* .card_container {
+    display: flex;
+    border: 1px solid red;
+    width: 60%;
+
+} */
